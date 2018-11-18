@@ -1,0 +1,52 @@
+.header-container {
+  height: 100%;
+  text-align: center;
+  font-family: monospace;
+  font-size: 2.5rem;
+  //border-bottom: 1px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.5rem;
+
+  .left-menu {
+    position: absolute;
+    left: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .right-menu {
+    position: absolute;
+    right: 1.5rem;
+    font-size: 2rem;
+  }
+}
+
+.navigation-modal-container {
+  background-color: white;
+  box-shadow: 0.5rem 0.6rem #888888; //gray
+  font-family: monospace;
+  font-size: 2rem;
+  text-align: center;
+  border: 1px black solid;
+  position: absolute;
+  width: 60%;
+  height: 30%;
+  top: 35%;
+  left: 20%;
+  z-index: 100;
+  border-radius: 1rem;
+
+  .nav-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33%;
+  }
+
+  .middle {
+    border: 1px black solid;
+    border-left:0;
+    border-right: 0;
+  }
+}

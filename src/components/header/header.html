@@ -1,0 +1,12 @@
+<div class="header-container">
+  GuapSite
+  <span class="left-menu" (click)="toggleNavModal()">☰</span>
+  <span class="right-menu">※</span>
+</div>
+
+<!--Navigation Modal-->
+<div *ngIf="showNavModal" class="navigation-modal-container">
+  <a class="top nav-row">Home</a>
+  <a class="middle nav-row">Contact</a>
+  <a class="bottom nav-row">About Us</a>
+</div>

@@ -1,0 +1,53 @@
+:host {
+
+
+  .background {
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+    left: 0;
+    //position:absolute;
+    //height: 100%;
+    width: 100vw;
+    //width: 100vw;
+    background: url("shoebackground.jpg") no-repeat center;
+    background-size: cover;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+  }
+  .circle {
+    background: white;
+    position: absolute;
+    top: 30%;
+    left: 17vw;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 66vw;
+    width: 66vw;
+    border-radius: 50%;
+    z-index: 10;
+
+    .enter {
+      font-size: 13vw;
+      font-family: monospace;
+    }
+  }
+
+  @media(min-width: 500px) {
+    .circle {
+      left: 30vw;
+      width: 40vw;
+      height: 40vw;
+      top: 25%;
+
+      .enter {
+        font-size: 6rem;
+      }
+    }
+  }
+}
